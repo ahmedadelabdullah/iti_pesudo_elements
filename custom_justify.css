@@ -1,0 +1,103 @@
+
+
+/* start stylig for justify task */
+.container{
+     width: 800px;
+     margin: auto;
+    background-color: rgb(236, 236, 243);
+    padding: 15px;
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+
+.container h3{
+    text-align: center;
+    
+}
+.container p{
+    text-align: justify;
+}
+/* end stylig for justify task */
+
+/* start stylig for justify task */
+.pesudo{
+    width: 800px;
+    margin: auto;
+   background-color: rgb(236, 236, 243);
+   padding: 15px;
+   margin-top: 50px;
+   text-transform: capitalize;
+   position: relative;
+}
+
+.pesudo h3{
+   text-align: center;
+   
+}
+
+.pesudo h3::after{
+    content: '';
+    width: 20px;
+    height: 2px;
+    background-color: red;
+    position: absolute;
+    top: 45px;
+    right: 255px;
+ }
+
+ .pesudo h3::before{
+    content: '';
+    width: 20px;
+    height: 2px;
+    background-color: red;
+    position: absolute;
+    top: 45px;
+    left: 255px;
+ }
+.pesudo p{
+   text-align: justify;
+}
+
+.pesudo p::first-letter{
+    color: tomato;
+    font-size: 20px;
+}
+
+/* end stylig for justify task */
+
+/* start stylig for justify task */
+.float{
+    width: 80%;
+    margin: auto;
+   background-color: rgb(236, 236, 243);
+   padding: 15px;
+   margin-top: 50px;
+   text-transform: capitalize;
+   
+   
+}
+
+.float .float-left{
+   background-color: orangered;
+   width: 40%;
+   float: left;
+   height: 50px;
+   line-height: 50px;
+   text-align: center;
+}
+.float .float-right{
+    background-color: orange;
+    float: right;
+    width: 40%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+ }
+.float-none{
+   clear: both;
+   height: 50px;
+   line-height: 50px;
+   background-color: gray;
+   margin-top: 100px;
+}
+/* end stylig for justify task */

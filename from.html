@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="custom_form.css">
+    <title>form registration</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <td colspan="2">
+                    <h1>form registration</h1>
+                </td>
+            </tr>
+        </thead>
+    <tbody>
+        <tr>
+            <td ><label for="f_name">first name</label></td>
+            <td ><input type="text" name="f_name" id="f_name"></td>
+        </tr>
+
+        <tr>
+            <td ><label for="l_name">last name</label></td>
+            <td ><input type="text" name="l_name" id="f_name"></td>
+        </tr>
+
+        <tr>
+            <td ><label for="u_name">user name</label></td>
+            <td ><input type="text" name="u_name" id="u_name"></td>
+        </tr>
+
+        <tr>
+            <td ><label for="pass">pass</label></td>
+            <td ><input type="text" name="pass" id="pass"></td>
+        </tr>
+
+        <tr>
+            <td ><label for="track">track</label></td>
+            <td >
+                <select>
+                    <option value="1">sd</option>
+                    <option value="2">ss</option>
+                    <option value="3">dd</option>
+                    <option value="4">ds</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td rowspan="2"><label for="gender">gender</label></td>
+           <td ><input type="radio" name="gender" id="gender"> male</td>
+        </tr>
+
+        <tr>
+           <td > <input type="radio" name="gender" id="gender"> femal</td>
+        </tr>
+
+        <tr>
+            <td><label for="favourites">favourites</label></td>
+           <td>
+            <input type="checkbox" name="favourites"> football
+            <input type="checkbox" name="favourites"> basketball
+            <input type="checkbox" name="favourites"> games
+            <br>
+            <input type="checkbox" name="favourites"> reading
+            <input type="checkbox" name="favourites"> swimming
+            <input type="checkbox" name="favourites"> travel
+        </td>
+        </tr>
+
+        <tr>
+            <td rowspan="3"><label for="pass">discription</label></td>
+            <td rowspan="3"><textarea cols="25" rows="6"></textarea></td>
+        </tr>
+       
+<tfoot>
+    <tr>
+        <td colspan="2"><input type="submit" value="submit"> <input type="reset" value="reset"></td>
+    </tr>
+</tfoot>
+
+    </tbody>
+    </table>
+</body>
+</html>
